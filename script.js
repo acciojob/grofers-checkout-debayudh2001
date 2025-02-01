@@ -9,6 +9,7 @@ const getSum = () => {
 	}
 	let td = document.createElement("td")
 	td.innerText = sum
+	td.id = "ans"
 	let tr = document.createElement("tr")
 	tr.append(td)
 	let table = document.querySelector("table")
